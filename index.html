@@ -1,48 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Hui Zhao's simple website</title>
 	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-<!--Main Navigation-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
-  <a class="navbar-brand" id="navbar-text" href="#">
-	<img src="logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-	Hui's Simple Website.
-  </a>
+
+<body class="text-white" style="background-color:black">
+<!--Navigation Bar-->
+<nav class="navbar navbar-expand-lg text-white navbar-dark sticky-top">
+  <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon float-right"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav" id="navbar-text">
-      <a class="nav-item nav-link active" href="">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="aboutme.html">About Me</a>
-      <a class="nav-item nav-link" href="projects.html">Projects</a>
-	  <a class="nav-item nav-link" href="contacts.html">Contact</a>
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active nav-text" href="#home">HOME <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link nav-text" href="#aboutme">ABOUTME</a>
+      <a class="nav-item nav-link nav-text" href="#work">WORK</a>
+      <a class="nav-item nav-link nav-text" href="#contact">CONTACT</a>
     </div>
   </div>
 </nav>
-<!--Main Navigation-->
+<!--Navigation Bar-->
 
-<!--Main Content-->
-<br><br><br><br>
-<p>HOME</p>
-<!--Main Content-->
+<!--Home section-->
+<div  class="homeview">
+	<a id="home"></a>
+	<p class="specialtext">HELLO.</p>
+	<h1 class="hometext" style="padding:20px;"> HUI ZHAO</h1>
+	<h2 class="hometext">SOFTWARE ENGINEER</h2>
+</div>
+<!--Home section-->
+
+<!--AboutME section-->
+<a id="aboutme"></a>
+<div class="container-fluid pt-4 aboutmeview">
+<p class="specialtext1">I go by TY.</p>
+	<div class="row">
+		<div class="col-sm-12 col-md-6 col-xs-12">
+			<img class="img-responsive col-sm-12" src="image.jpg"/>
+		</div>
+		<div class="col-sm-12 col-md-6 col-xs-12">
+			<p class="text-right aboutmetext">I have strength in <br>
+			problem-solving <br>
+			& <br>
+			data analytic.</p>
+			<a class="float-right text-white" target="_blank" href="resume.pdf" style="font-size: 4vw; font-family:impact" download><ins><strong>MY RESUME</strong></ins></a>
+		</div>
+	</div>
+</div>
+<!--AboutME section-->
+
+<!--Works section-->
+<a id="work"></a>
+<div class="container-fluid sidetext pt-4">
+	<h2 class="text-right" style="
+	font-size:15vw;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+	opacity:0.5;">
+	WORKS</h2>
+	<div class="row pt-4">
+		<div class="col-sm-12 col-md-6">
+			<img src="image1.png"/>
+		</div>
+		<div class="col-sm-12 col-md-6">
+		<p style="font-size:3vw">Project Features：</p>
+		<ul>
+			<li>1. Hash-based storage of data (Hash Database).</li>
+			<li>2. Persistence of data even if system crashes. </li>
+			<li>3. User/Admin login system.</li>
+			<li>4. Input/Output from command line.</li>
+			<li>5. Graphic User Interface to enhance user experience.</li>
+		</ul>
+		</div>
+	</div>
+	<div class="row pt-4 flex-column-reverse flex-md-row">
+		<div class="col-sm-12 col-md-6">
+		<p style="font-size:3vw；">Project Functions:</p>
+		<ul>
+			<li>1. Online search bar function that will crawl data (text and image) from a specific website (I used bookdepository.com as an example) and store it in user/admin database.</li>
+			<li>2. Ability to remove and modify data stored using IDs.</li>
+			<li>3. Log box that keep track of every transaction of database.</li>
+			<li>4. Search function to pull data from a specific time frame.</li>
+			<li>5. Send current user's database to any email using username and password provided.</li>
+			<!--<li>6. Open current user's database.</li>-->
+		</ul>
+		</div>
+		<div class="col-sm-12 col-md-6">
+			<img src="image2.png"/>
+		</div>
+	</div>
+	<div class="row pt-4">
+		<div class="col-sm-12 col-md-6">
+			<img src="image3.png"/>
+		</div>
+		<div class="col-sm-12 col-md-6">
+		<p style="font-size:3vw">Admin Access：</p>
+		<ul>
+			<li>1. Ability to check log file that contains all user's transactions in their database.</li>
+			<li>2. Open any user's database. </li>
+			<li>3. Delete any user's database. </li>
+			<li>4. Reconstruct any user's database using log file records. </li>
+		</ul>
+		</div>
+	</div>
+</div>
+<!--Works section-->
+
+<!--Contacts section-->
+<a id="contact"></a>
+<div class="container-fluid pt-4">
+<h2 class="text-left" style="
+	font-size:15vw;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+	opacity:0.5;">
+	CONTACT</h2>
+	<p style="font-size:3vw;">I WOULD LOVE TO HEAR FROM YOU :)</p>
+	<div class="row">
+		<div class="col-sm-6">
+			<form id="contact-form" action="mail.php" method="POST">
+				<input type="text" name="name" value="NAME"><br><br>
+				<input type="email" name="email" value="EMAIL"><br><br>
+				<input type="text" name="subject" value="SUBJECT"><br><br>
+				<textarea type="text" name="message" rows="3">MESSAGE</textarea><br><br>
+				<div class="text-center">
+					<button class="form-button" onclick="document.getElementById('contact-form').submit();">Send</button>
+				</div>
+			</form>
+		</div>
+		<div class="col-sm-1"></div>
+		<div class="col-sm-4 pt-4 sidetext">Feel free to get in touch with me. I am always to open to discussion of new project,creative ideas or opportunities to be part of your vision.</div>
+		<div class="col-sm-1"></div>
+	<div>
+</div>
+<!--Contacts section-->
+</body>
 
 <!--Footer-->
 <footer class="footer">
+<div class="container-fluid">
   <div class="row">
-	<p class="col-sm-12">&copy; Hui Zhao 2019</p>
+	<p class="col-sm-12 pt-4">&copy; Hui Zhao 2019</p>
   </div>
+ </div>
 </footer>
 <!--Footer-->
-</body>
+
 </html>
