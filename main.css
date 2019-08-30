@@ -3,10 +3,10 @@ body{
 	width:100%;
 	margin:0;
 	padding:0;
-	font-family:impact,sans-serif;
+	font-family:impact;
 }
 h1,h2,p{
-	font-family:impact,sans-serif;
+	font-family:impact;
 }
 input{
 	width:100%;
