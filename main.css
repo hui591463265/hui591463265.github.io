@@ -86,24 +86,24 @@ img{
 	position:relative;
 	z-index:1;
 	opacity:0.5;
-	font-size:20vw;
+	font-size:15vw;
 	left:1px;
    	-webkit-text-stroke: 1px white;
     	-webkit-text-fill-color: transparent;
 	font-family:impact,sans-serif;
 }
-/*
+
 .specialtext{
 	position:absolute;
 	z-index:-1;
 	opacity:0.5;
-	font-size:30vw;
+	font-size:35vw;
 	text-align:center;
    	-webkit-text-stroke: 1px white;
     	-webkit-text-fill-color: transparent;
 	font-family:impact,sans-serif;
 }
-	*/
+	
 } 
 .img-responsive{
 	height:100%;
