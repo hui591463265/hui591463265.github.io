@@ -75,7 +75,7 @@ img{
 	position:absolute;
 	z-index:1;
 	opacity:0.5;
-	font-size:20vw;
+	font-size:40vw;
 	bottom:-10px;
 	left:1px;
     -webkit-text-stroke: 1px white;
@@ -90,6 +90,7 @@ img{
 	left:1px;
    	-webkit-text-stroke: 1px white;
     	-webkit-text-fill-color: transparent;
+	font-family:impact,sans-serif;
 }
 .specialtext{
 	position:absolute;
@@ -99,6 +100,7 @@ img{
 	text-align:center;
    	-webkit-text-stroke: 1px white;
     	-webkit-text-fill-color: transparent;
+	font-family:impact,sans-serif;
 }
 } 
 .img-responsive{
