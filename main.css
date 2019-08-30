@@ -78,15 +78,15 @@ img{
 	font-size:20vw;
 	bottom:-10px;
 	left:1px;
-    -webkit-text-stroke: 1px white;
-    -webkit-text-fill-color: transparent;
+    	-webkit-text-stroke: 1px white;
+    	-webkit-text-fill-color: transparent;
 }
 @media only screen and (max-width: 500px) {
 .specialtext1{
 	position:relative;
 	z-index:1;
 	opacity:0.5;
-	font-size:18vw;
+	font-size:18.5vw;
 	left:1px;
    	-webkit-text-stroke: 1px white;
     	-webkit-text-fill-color: transparent;
@@ -97,7 +97,7 @@ img{
 	position:absolute;
 	z-index:-1;
 	opacity:0.5;
-	font-size:32vw;
+	font-size:30vw;
 	text-align:center;
    	-webkit-text-stroke: 1px white;
     	-webkit-text-fill-color: transparent;
@@ -105,6 +105,7 @@ img{
 }
 	
 } 
+
 .img-responsive{
 	height:100%;
 	width:100%;
