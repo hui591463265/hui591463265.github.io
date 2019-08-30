@@ -53,6 +53,7 @@ img{
 	margin:0;
 	padding:0;
 	position:relative;
+	overflow:hidden;
 }
 .aboutmeview{
 	min-height:50vw;
@@ -82,14 +83,17 @@ img{
     -webkit-text-fill-color: transparent;
 }
 @media only screen and (max-width: 500px) {
-	.specialtext1{
+.specialtext1{
 	position:relative;
 	z-index:1;
 	opacity:0.5;
 	font-size:20vw;
 	left:1px;
-    -webkit-text-stroke: 1px white;
-    -webkit-text-fill-color: transparent;
+   	-webkit-text-stroke: 1px white;
+    	-webkit-text-fill-color: transparent;
+}
+.specialtext{
+	font-size:80%;
 }
 } 
 .img-responsive{
