@@ -39,7 +39,7 @@ img{
 	font-family:impact;
 	font-size:2vw;
 	-webkit-text-stroke: 1px white;
-    -webkit-text-fill-color: black;
+    	-webkit-text-fill-color: black;
 }
 .hometext{
 	text-align:center;
@@ -67,8 +67,9 @@ img{
 	opacity:0.5;
 	font-size:40vw;
 	text-align:center;
-    -webkit-text-stroke: 1px white;
-    -webkit-text-fill-color: transparent;
+   	-webkit-text-stroke: 1px white;
+    	-webkit-text-fill-color: transparent;
+	width:100%;
 }
 .specialtext1{
 	position:absolute;
