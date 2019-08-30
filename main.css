@@ -92,6 +92,7 @@ img{
     	-webkit-text-fill-color: transparent;
 	font-family:impact,sans-serif;
 }
+/*
 .specialtext{
 	position:absolute;
 	z-index:-1;
@@ -102,6 +103,7 @@ img{
     	-webkit-text-fill-color: transparent;
 	font-family:impact,sans-serif;
 }
+	*/
 } 
 .img-responsive{
 	height:100%;
